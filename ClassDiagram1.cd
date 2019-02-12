@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TouristAgency.ClassBusTour">
+    <Position X="6.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAAAAQABAABAAAAAAAAAGAAEEAAAAAAAIAAA=</HashCode>
+      <FileName>ClassBusTour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassCity">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEAAAAoA=</HashCode>
+      <FileName>ClassCity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassCountry" />
+      <Property Name="ClassHotel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassClient">
+    <Position X="9.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAoKEAAA=</HashCode>
+      <FileName>ClassClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouristAgency.ClassCountry">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ClassCountry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouristAgency.ClassEmployee">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAACAAABwAgIAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ClassEmployee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassPosition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassExcursionsTour">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAAAAQABAABAAAAAAAAAGAAMEAAAAAAAIAAA=</HashCode>
+      <FileName>ClassExcursionsTour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassHotel">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJAAAAAAAAAAAACAAAAAAAAIACAAAAAAAACAA=</HashCode>
+      <FileName>ClassHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouristAgency.ClassMarinTour">
+    <Position X="3.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAAAAQABAABAAAAAAAAAGAAEEAAAAAAAIAAA=</HashCode>
+      <FileName>ClassMarinTour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassMountainTour">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAEAAQAAAABAACAAAAAAGAAEGAAAAAAAIAAA=</HashCode>
+      <FileName>ClassMountainTour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassCity" />
+      <Property Name="ClassOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassOperator">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAACAAAEAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ClassOperator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouristAgency.ClassPosition">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ClassPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TouristAgency.ClassSale">
+    <Position X="6.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAJCiACAAAAAAAAAgAAAQAAAAgIIIEAAIAgIgAAAAA=</HashCode>
+      <FileName>ClassSale.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassBusTour" />
+      <Property Name="ClassSeaTour" />
+      <Property Name="ClassMountainTour" />
+      <Property Name="ClassMarinTour" />
+      <Property Name="ClassExcursionsTour" />
+      <Property Name="ClassEmployee" />
+      <Property Name="ClassClient" />
+      <Property Name="ClassTypeTour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassSeaTour">
+    <Position X="9.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQJAAAAAEAAQAAAABAACAAAAAAGAAEGAAAAAAAIAAA=</HashCode>
+      <FileName>ClassSeaTour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClassCity" />
+      <Property Name="ClassOperator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TouristAgency.ClassTypeTour">
+    <Position X="3.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>ClassTypeTour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
